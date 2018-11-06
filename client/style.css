@@ -27,6 +27,7 @@ button:hover {
     width: 80%;
     padding-top: 25px;
     display: grid;
+    grid-template-rows: auto;
     grid-template-areas:    
       '. desc desc desc book book .'
       '. aval aval aval book book .'
@@ -195,14 +196,14 @@ button:hover {
 }
 .desc-container {
     grid-area: desc;
-    border: solid rgb(95, 95, 95);
-    border-width: 1px;
+    /* border: solid rgb(95, 95, 95);
+    border-width: 1px; */
     padding: 10px;
 }
 .reviews-container {
     grid-area: reviews;
-    border: solid rgb(95, 95, 95);
-    border-width: 1px;
+    /* border: solid rgb(95, 95, 95);
+    border-width: 1px; */
     padding: 10px;
 }
 .line-breaker {
