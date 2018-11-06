@@ -12,13 +12,16 @@ button:hover {
   grid-template-columns: 80px auto 40px;
   height: 80px;
 }
+#images {
+    height: auto;
+}
 .images-container {
     margin-top: 1px;
     display: grid;
     grid-template-areas:
       'bigpic bigpic smallpic1 smallpic2'
       'bigpic bigpic smallpic3 smallpic4';
-    height: 440px;
+    height: auto;
 }
 .main-body-container {
     width: 80%;
@@ -35,9 +38,6 @@ button:hover {
 #nav {
     height: 80px;
     background-color: white;
-}
-#images {
-    height: 440px;
 }
 #logo {
     width: 80px;
